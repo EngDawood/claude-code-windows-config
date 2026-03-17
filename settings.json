@@ -1,0 +1,42 @@
+{
+  "env": {
+    "CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION": "true",
+    "MAX_MCP_OUTPUT_TOKENS": "60000",
+    "BASH_DEFAULT_TIMEOUT_MS": "300000",
+    "BASH_MAX_TIMEOUT_MS": "600000",
+    "CLAUDE_CODE_GIT_BASH_PATH": "C:\\Program Files\\Git\\bin\\bash.exe"
+  },
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "disableBypassPermissionsMode": "disable"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "enabledPlugins": {
+    "code-simplifier@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "pr-review-toolkit@claude-plugins-official": true,
+    "chrome-devtools-mcp@chrome-devtools-plugins": true,
+    "context7@claude-plugins-official": true,
+    "cloudflare@cloudflare": true,
+    "feature-dev@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "hookify@claude-plugins-official": true,
+    "claude-code-setup@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "knowledge-work-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/knowledge-work-plugins"
+      }
+    }
+  },
+  "voiceEnabled": false
+}
